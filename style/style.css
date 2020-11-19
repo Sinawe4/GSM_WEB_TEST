@@ -1,0 +1,262 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav {
+    width: 100%;
+    height: 135px;
+    position: relative;
+    z-index: 1000;
+    background-color: #000;
+}
+a.logo img {
+    width: 180px;
+    margin-top: 10px;
+    margin-left: 130px;
+}
+a.logo p {
+    width: 180px;
+    margin: 0;
+    position: relative;
+    top: -40px;
+    left: 10%;
+    color: white;
+    font-size: 25px;
+}
+a{
+    text-decoration: none;
+}
+#Best{
+    position: relative;
+    bottom: -40px;
+    color: rgb(202, 71, 71);
+    border: 1px solid rgb(202, 71, 71);
+    left: 700px;
+    text-shadow: gold 0.5px 0.5px 0.5px;
+    font-size: 20px;
+}
+.Sumbit{
+    position: relative;
+    left: 45%;
+    height: 25px;
+    width: 100px;
+}
+button a{
+    color: black;
+}
+
+.Logo{
+    display: block;
+    width: 200px;
+    height: 200px;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    position: relative;
+    top: -95%;
+    
+}
+nav ul li {
+    margin: 0 3px;
+    padding: 8px 15px;
+    align-items: center;
+    position: relative;
+    left: 60%;
+    top: -20px;
+}
+
+nav ul li  a {
+    text-decoration: none;
+    color: white;
+    transition: all 0.25s;
+    font-size: 20px;
+}
+nav ul li div a:hover {
+    color: orange;
+    padding-bottom: 3px;
+    border-bottom: 1px solid orange;
+}
+form p{
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.full-width {
+    width: 100%;
+}
+.full-page {
+    height: 100vh;
+}
+.page {
+    padding-top: 70px;
+}
+.wrap {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+.page h1 {
+    padding: 0.5em;
+    color: #fff;
+    text-shadow: 0 2px 7px rgba(0, 0, 0, .55);
+    position: relative;
+}
+.page .inner {
+    min-height: 70vh;
+    background-color: rgba(255, 255, 255, .95);
+    padding: 1em 2em;
+    color: #000;
+}
+.page .inner2 {
+    min-height: 70vh;
+    background-color: rgba(255, 255, 255, .95);
+    padding: 1em 2em;
+    color: #000;
+}
+.back-image1,
+.back-image2,
+.back-image2-1,
+.back-image2-2,
+.back-image2-3,
+.back-image3,
+.back-image3-1, 
+.back-image3-2,
+.back-image3-3,
+.back-image4,
+.back-image4-1,
+.back-image4-2,
+.back-image4-3,
+.back-image5,
+.back-image5-1,
+.back-image5-2,
+.back-image5-3,
+.back-image6{
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-position: center;
+}
+.back-image1 {
+    background-image: url("/Guitar/01.jpeg");
+}
+.back-image2{
+    background-image: url("/Guitar/02.jpeg");
+}
+.back-image2-1{
+    background-image: url("/Guitar/02-1.jpg");
+}
+.back-image2-2{
+    background-image: url("/Guitar/02-2.png");
+}
+.back-image2-3{
+    background-image: url("/Guitar/02-3.jpg");
+}
+.back-image3{
+    background-image: url("/Guitar/03.jpg");
+}
+.back-image3-1{
+    background-image: url("/Guitar/03-1.jpg");
+}
+.back-image3-2{
+    background-image: url("/Guitar/03-2.jpeg");
+}
+.back-image3-3{
+    background-image: url("/Guitar/03-3.jpg");
+}
+.back-image4{
+    background-image: url("/Guitar/04.jpg");
+}
+.back-image4-1{
+    background-image: url("/Guitar/04-1.jpg");
+}
+.back-image4-2{
+    background-image: url("/Guitar/04-2.jpg");
+}
+.back-image4-3{
+    background-image: url("/Guitar/04-3.jpg");
+}
+.back-image5{
+    background-image: url("/Guitar/05.jpg");
+}
+.back-image5-1{
+    background-image: url("/Guitar/05-1.jpg");
+}
+.back-image5-2{
+    background-image: url("/Guitar/05-2.jpeg");
+}
+.back-image5-3{
+    background-image: url("/Guitar/05-3.jpg");
+}
+.back-image6{
+    background-image: url("/Guitar/06.jpg");
+}
+.first-part h1 {
+    font-size: 4.5rem;
+}
+.first-part h1 {
+    text-align: center;
+    font-size: 5em;
+    transition: width 0.5s linear 0.2s;
+    position: relative;
+    animation: fadetop 3s;
+}
+@keyframes fadetop {
+    0% {
+        opacity: 0;
+        top: -150px;
+    }
+    100% {
+        top: 0;
+        opacity: 1;
+    }
+}
+.dropbtn {
+    background-color: black;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: black;}
+
+  footer {
+    padding: .75em;
+    background-color: black;
+    color: white;
+    font-size: 0.75rem;
+    text-align: center;
+}
+  .fixed-bottom {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+}
